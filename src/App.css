@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.header-section{
+  background-color: lightcoral;
+  min-height: 20vh;
+}
+.main-section{
+  background-color: lightgrey;
+  min-height: 40vh;
+}
+.footer-section{
+  background-color: lightblue;
+  min-height: 20vh;
+}
