@@ -11,9 +11,15 @@ function Beers() {
   return(
     <>
     <h2>Api Beers</h2>
+    <button onClick = {(beers) => {
+
+    }} >GET RANDOM BEERS</button>
+    <br/>
+    <br/>
     {!beers ? <p>Loading......</p> : beers.map(beer => {
       return <SingleBeer key={beer.id}  passedBeer={beer}/>
     })}
+
     </>
   )
 }
